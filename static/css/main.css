@@ -1,0 +1,9 @@
+body, html {
+    margin: 50;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+div{
+    margin-top : 450px;
+    font-size : 10px;
+}
