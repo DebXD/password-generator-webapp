@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, redirect, url_for
-import passwd_gen
+import passwd_gen, os
 app = Flask(__name__)
 
 @app.route("/",methods = ["POST","GET"])
@@ -32,4 +32,4 @@ def gen(length):
         return "there were some error redirecting"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port = int(os.environ.get('PORT', 5000)))
