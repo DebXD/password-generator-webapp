@@ -1,2 +1,13 @@
 # password-gen
-password-generator based on Flask
+password-generator web app based on Flask Framework
+
+## Install Requirements :
+```
+pip3 install requirements.txt
+```
+
+## Run :
+```
+python3 app.py
+```
+
