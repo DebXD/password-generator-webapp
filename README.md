@@ -3,7 +3,7 @@ password-generator web app based on Flask Framework
 
 ## Install Requirements :
 ```
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Run :
