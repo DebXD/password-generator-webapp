@@ -13,9 +13,9 @@ def index():
                 try:
                     return redirect(f"/gen/{length}")
                     
-                except:
+                except Exception:
                     return "There was some error taking your input"
-        except:
+        except Exception:
             return redirect ('/gen/15')
             
     else:
@@ -28,7 +28,7 @@ def gen(length):
         password = passwd_gen.generate_pass(length)
         password = str(password)
         return render_template("gen.html", password = password)
-    except:
+    except Exception:
         return "there were some error redirecting"
 
 if __name__ == "__main__":

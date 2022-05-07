@@ -5,16 +5,24 @@
 
 {% block body %}
 <p style="text-align:center">
-    
-    <strong>PASSWORD</strong>
+    <strong>GENERATED PASSWORD</strong>
     <form style="text-align: center;">
-    <input type = text, value = {{password}}  readonly>
+    <input class = "frm", type = text, value = {{password}}  readonly>
+    <p hidden id ="pass",value={{password}}>{{password}}</p>
+    <button id="cpbutton", class= "btn", type=button>Copy</button>
+    <script src="/static/js/main.js"> </script>
+  
 </p>
+
+ <p>
+     <i>Please Keep it safe.</i>
+</p>
+    
 
 
     <a href ="/">Home</a>
 <div>
-      A project made by <a href ="https://github.com/DebiprasadXD">Debiprasad Das</a>
+      A Project Made by <a href ="https://github.com/DebiprasadXD/web-password-generator">Debiprasad Das</a>
 
 <p style="text-align:center">
     <i>*We do not store or sell your password.</i>
@@ -25,9 +33,7 @@
 
 
 
-
-
-
 {% endblock %}
+
 
 

@@ -1,9 +1,57 @@
-body, html {
+body, html{
     margin: 50;
-    font-family: sans-serif;
-    background-color: lightblue;
+    font-family : sans-serif;
+    background-color : lightyellow;
 }
 div{
     margin-top : 450px;
     font-size : 10px;
+}
+
+.frm1{
+    position : left;
+    height : 20px;
+    width : 30%;
+    padding : 20px;
+    border-radius : 15px;
+    font-size : 20px;
+}
+.btn1{
+    position: right;
+    top:50%;
+    background-color :#FFD580;
+    border-radius:10px;
+    padding:15px;
+    
+}
+.btn{
+    position: right;
+    top:50%;
+    background-color : lightgreen;
+    border-radius:10px;
+    padding:15px;
+}
+.btn:hover {
+      background-color:green;
+      transition: 0.7s;
+  }
+.btn:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}  
+
+.btn:active {
+    background-color: green;
+    transition: 0.7s;
+}
+.frm{
+    position : left;
+    height : 25px;
+    width : 70%;
+    padding : 10px;
+    border-radius : 10px;
+    font-family: monospace;
+    font-size : 16px;
 }
