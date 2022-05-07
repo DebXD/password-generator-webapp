@@ -55,3 +55,11 @@ div{
     font-family: monospace;
     font-size : 16px;
 }
+.home{
+    position : 50%;
+    background-color : lightgrey;
+    padding : 10px;
+    border : none;
+    border-radius : 15px;
+    
+}
