@@ -4,22 +4,24 @@
 {% endblock %}
 
 {% block body %}
-<p style="text-align:center">
+<p class = "texts", style="text-align:center">
     <strong>GENERATED PASSWORD</strong>
     <form style="text-align: center;">
-    <input class = "frm", type = text, value = {{password}}  readonly>
+    <input class = "frm2", type = text, value = {{password}}  readonly>
     <p hidden id ="pass",value={{password}}>{{password}}</p>
-    <button id="cpbutton", class= "btn", type=button>Copy</button>
+    <button id="cpbutton", class= "btn2", type=button>Copy</button>
     <script src="/static/js/main.js"> </script>
   
 </p>
 
- <p>
+ <p class = "texts">
      <i>Please Keep it safe.</i>
 </p>
     
 
-<button class = "home", type= button,  onclick ="location.href='/'">Home</button>
+<form>
+  <button class = "home", formaction="/">Home</button>
+</form>
 
 <div>
       A Project Made by <a href ="https://github.com/DebiprasadXD/web-password-generator">Debiprasad Das</a>

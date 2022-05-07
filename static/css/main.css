@@ -4,7 +4,7 @@ body, html{
     background-color : lightyellow;
 }
 div{
-    margin-top : 450px;
+    margin-top : 420px;
     font-size : 10px;
 }
 
@@ -24,29 +24,30 @@ div{
     padding:15px;
     
 }
-.btn{
+.btn2{
     position: right;
     top:50%;
     background-color : lightgreen;
     border-radius:10px;
     padding:15px;
 }
-.btn:hover {
+.btn2:hover {
       background-color:green;
       transition: 0.7s;
   }
-.btn:focus {
+.btn2:focus {
     outline-color: transparent;
     outline-style:solid;
     box-shadow: 0 0 0 4px #5a01a7;
     transition: 0.7s;
 }  
 
-.btn:active {
+.btn2:active {
     background-color: green;
     transition: 0.7s;
 }
-.frm{
+.frm2{
+    margin-top : 20px;
     position : left;
     height : 25px;
     width : 70%;
@@ -61,5 +62,13 @@ div{
     padding : 10px;
     border : none;
     border-radius : 15px;
+    transition: 0.7s;
     
+}
+.home:active{
+    background-color: grey;
+    transition: 0.7s;
+}
+.texts{
+    margin-top : 25px;
 }
