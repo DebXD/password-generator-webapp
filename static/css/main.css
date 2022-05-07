@@ -4,6 +4,7 @@ body, html{
     background-color : lightyellow;
 }
 div{
+    position: 50%;
     margin-top : 420px;
     font-size : 10px;
 }
