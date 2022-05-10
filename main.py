@@ -1,6 +1,8 @@
+import json, os
 from flask import Flask, request, render_template, redirect, url_for
-import passwd_gen, os
-import json
+
+import pass_generator.passwd_gen
+
 
 app = Flask(__name__)
 
@@ -27,7 +29,7 @@ def index():
 def gen(length):
     try:
         length = int(length)
-        password = passwd_gen.generate_pass(length)
+        password = pass_generator.passwd_gen.generate_pass(length)
         password = str(password)
         return render_template("gen.html", password = password)
     except Exception:
@@ -44,7 +46,7 @@ def page(length):
         #length = request.form.get("length")
 
     length = int(length)
-    password = passwd_gen.generate_pass(length)
+    password = pass_generator.passwd_gen.generate_pass(length)
     password = str(password)
     if int(length) < 5:
         msg = { "Message" : "Enter Length More than 5 characters"}
