@@ -6,7 +6,7 @@ password-generator web app based on Flask Framework
 pip3 install -r requirements.txt
 ```
 
-## Run :
+## Run the app :
 ```
 python3 app.py
 ```
