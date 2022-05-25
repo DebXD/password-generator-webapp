@@ -34,6 +34,7 @@ def gen(length):
         return render_template("gen.html", password = password)
     except Exception:
         return "there were some error redirecting"
+
 @app.route("/api/",methods=["POST", "GET"])
 def home():
     data_set = {'Length': 'None', 'Password': 'None', 'Message':'This is Home page of the api'}

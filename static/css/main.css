@@ -1,10 +1,10 @@
 body, html{
-    margin: 50;
+    margin : 50;
     font-family : sans-serif;
     background-color : lightyellow;
 }
 div{
-    position: 50%;
+    position : 50%;
     margin-top : 420px;
     font-size : 10px;
 }
@@ -18,36 +18,36 @@ div{
     font-size : 20px;
 }
 .btn1{
-    position: right;
-    top:50%;
+    position : right;
+    top : 50%;
     font-size : 14px;
-    background-color :#FFD580;
-    border-radius:10px;
-    padding:15px;
-    transition: 0.7s;
+    background-color : #FFD580;
+    border-radius : 10px;
+    padding : 15px;
+    transition : 0.7s;
     
 }
 .btn2{
-    position: right;
-    top:50%;
+    position : right;
+    top : 50%;
     background-color : lightgreen;
-    border-radius:10px;
-    padding:15px;
+    border-radius : 10px;
+    padding : 15px;
 }
 .btn2:hover {
       background-color:green;
       transition: 0.7s;
   }
 .btn2:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
-    transition: 0.7s;
+    outline-color : transparent;
+    outline-style : solid;
+    box-shadow : 0 0 0 4px #5a01a7;
+    transition : 0.7s;
 }  
 
 .btn2:active {
-    background-color: green;
-    transition: 0.7s;
+    background-color : green;
+    transition : 0.7s;
 }
 .frm2{
     margin-top : 20px;
@@ -68,16 +68,17 @@ div{
     transition: 0.7s;
 }
 .apibtn{
+    margin-right : 50%;
+    margin-left : 50%;
     position : 50%;
     background-color : lightblue;
     padding : 10px;
     border : none;
     border-radius : 15px;
     font-size: 14px;
-    transition: 0.7s;    
 }
 .homebtn:active{
-    background-color: grey;
+    background-color : grey;
     transition: 0.7s;
 }
 .texts{
